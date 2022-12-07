@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/* Dante Yacavone*/
+h1  {
+	Font-Family: 'Ovo', Serif;
+	Font-Size: 42px;
+    float: none;
+    clear: none;
+    text-align: center;
+    
+}
+Image {
+    text-align: center;
+}
+
+body {
+    background-image: url(../Background.jpeg);
+}
+Section  {
+    background-color: #B5B5B5;
+    /*background-color: rgba(255, 255, 255, .5);*/
+    color: #000000;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    float: none;
+    clear: both;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.30) 0%,rgba(168,168,168,0.42) 7.76%,rgba(172,172,172,0.39) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.30) 0%,rgba(168,168,168,0.42) 7.76%,rgba(172,172,172,0.39) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.30) 0%,rgba(168,168,168,0.42) 7.76%,rgba(172,172,172,0.39) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.30) 0%,rgba(168,168,168,0.42) 7.76%,rgba(172,172,172,0.39) 100%);
+
+}
+footer {
+	Font-Family: 'Quattrocento Sans', Sans-Serif;
+Font-Size: 17px;
+    font-size: small;
+    text-align: center;
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
+    height: 50px;
+    padding-top: 10px;
+    vertical-align: baseline;
+    color: #FCFBFB;
+}
+
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+/* 11 */
+
+.btn-11 {
+  border: none;
+  background: rgb(2,69,84);
+    background: linear-gradient(0deg, rgba(2,69,84,1) 0%, rgba(2,69,84,1) 100%);
+    color: #fff;
+    overflow: hidden;
+}
+.btn-11:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:hover{
+  opacity: .7;
+}
+.btn-11:active{
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
+h2 {
+    Font-Family: 'Ovo', Serif;
+    Font-Size: 30px;
+    color: rgba(2,69,84,1.00);
+}
+
+
+h3 {
+    Font-Family: 'Quattrocento Sans', Sans-Serif;
+    Font-Size: 17px;
+    color: rgba(2,69,84,1.00);
+}
+p {
+    color: rgba(2,69,84,1.00);
+	Font-Family: 'Quattrocento Sans', Sans-Serif;
+    Font-Size: 17px;
+}
